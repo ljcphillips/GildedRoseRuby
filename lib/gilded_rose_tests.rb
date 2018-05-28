@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), 'gilded_rose')
+require './gilded_rose'
 require 'test/unit'
 
 class TestUntitled < Test::Unit::TestCase
@@ -10,3 +10,6 @@ class TestUntitled < Test::Unit::TestCase
   end
 
 end
+
+test1 = TestUntitled.new
+test1.test_foo
